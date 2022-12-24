@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>CGPA Calculator - Dept of IT</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/pricing/">
+
+    
+
+    
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+    </style>
+
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        </a>
+        <span class="fs-4">CGPA Calculator - Dept. of IT
+        </span>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="../">Back to Home</a>
+        <!-- <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
+        <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a> -->
+      </nav>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">CGPA Calculator - R 2021</h1>
+      <p class="fs-5 text-muted">Calculate your CGPA based on your grades from each semester. Semester I, II, III and IV are included here.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semester I</h4>
+          </div>
+          <div class="card-body">
+            <!-- <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1> -->
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Professional English - I</li>
+              <li>Matrices and Calculus</li>
+              <li>Engineering Physics</li>
+              <li>Engineering Chemistry</li>
+              <li>Problem solving and Python Programming</li>
+              <li>Physics and Chemistry Laboratory</li>
+              <li>Python Programming Laboratory</li>
+            </ul>
+            <a href= "semester_1/" type="button" class="w-100 btn btn-lg btn-primary">Calculate Now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semester II </h4>
+          </div>
+          <div class="card-body">
+            <!-- <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1> -->
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Professional English - II </li>
+              <li>Statistics and Numerical Methods</li>
+              <li>Engineering Graphics</li>
+              <li>Programming in C</li>
+              <li>Physics for Information Science</li>
+              <li>basics of Electrical and Electronics Engineering</li>
+              <li>Engineering Practices Laboratoty</li>
+              <li>Programming in C Laboratory</li>
+              
+            </ul>
+            <a href="semester_2/" type="button" class="w-100 btn btn-lg btn-primary">Calculate Now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semester III</h4>
+          </div>
+          <div class="card-body">
+            <!-- <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1> -->
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Digital Principles and Computer Organization</li>
+              <li>Discrete Mathematics</li>
+              <li>Data Structures and Algorithms</li>
+              <li>Foundations of Data science</li>
+              <li>Object Oriented Programming</li>
+              <li>Data Structures and Algorithms Laboratory</li>
+              <li>Foundations of Data science Laboratory</li>
+              <li>Object Oriented Programming Laboratory</li>
+            </ul>
+            <a href="semester_3/" type="button" class="w-100 btn btn-lg btn-primary">Calculate Now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semester IV </h4>
+          </div>
+          <div class="card-body">
+            <!-- <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1> -->
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Theory of Computation</li>
+              <li>Artificial Intelligence and machine learning</li>
+              <li>Database Management Systems</li>
+              <li>Web Essentials</li>
+              <li>Introduction to Operating Systems</li>
+              <li>Enviroinmental Sciences and Sustainablity</li>
+            </ul>
+            <a href="semester_2/" type="button" class="w-100 btn btn-lg btn-primary disabled">Coming soon...</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!-- <h2 class="display-6 text-center mb-4">Compare plans</h2> -->
+
+
+  </main>
+
+
+  <table class="d-flex justify-content-center">
+    <tr>
+      <th>Grades</th>
+
+      <th>Corresponding marks</th>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td>90-100</td>
+
+    </tr>
+    <tr>
+      <td>A+</td>
+      <td>80-90</td>
+
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>70-80</td>
+
+    </tr>
+    <tr>
+      <td>B+</td>
+      <td>60-70</td>
+
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>50-60</td>
+
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>40-50</td>
+
+    </tr>
+    <tr>
+      <td>RA (Re-Appear)</td>
+      <td>0</td>
+
+    </tr>
+
+    <tr>
+      <td>SA (Shortage of attendance)</td>
+      <td>0</td>
+
+    </tr>
+
+    <tr>
+      <td>WH (With-Held)</td>
+      <td>0</td>
+
+    </tr>
+    </table>
+
+    <br>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <p class="text-center text-muted">© Site Crafted, maintained and developed by <a href="https://umar.selfmade.one">Umar Farooq</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
